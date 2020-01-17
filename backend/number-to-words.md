@@ -1,4 +1,4 @@
-# Convert amount to words
+# Amount to words
 
 Your task is convert amount to words and write support unit tests. 
 
