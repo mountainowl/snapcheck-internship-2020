@@ -18,4 +18,4 @@ who will use the public transport just once, without having a physical clipper c
 
 - Design UX and user journey experience through your flow
 - Think through on usability 
-- Hi-Fi designs are not required, but welcome
+- Hi-Fi are welcome, but not required
