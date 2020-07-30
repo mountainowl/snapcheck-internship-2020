@@ -1,6 +1,4 @@
-# Tasks 
-
-You are required to solve at least one of these challenges.
+# You are required to solve at least one of these challenges.
 
 ## CI/CD + Ansible
 
