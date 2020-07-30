@@ -1,4 +1,4 @@
-# You are required to solve at least one of the challenges.
+# Please complete at least one
 
 ## CI/CD + Ansible
 
