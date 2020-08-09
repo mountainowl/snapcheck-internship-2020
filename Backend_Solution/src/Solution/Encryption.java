@@ -3,13 +3,6 @@ package Solution;
 public class Encryption {
 	private int row, col;
 	
-	private String encryption;
-	
-	public static void main (String args [])
-	{
-		
-	}
-	
 	public Encryption (String str)
 	{
 		System.out.println ("\n\n----------   INPUT   ----------\n" + str );
@@ -37,7 +30,6 @@ public class Encryption {
 		int coli = 0, rowi = 0;
 		
 		//loops to insert the noSpaces string into the character matrix
-		//loop counts for O(n)
 		for (int i = 0; i < noSpaces.length(); i++)
 		{
 			//grab the character we are inserting
@@ -51,31 +43,17 @@ public class Encryption {
 			charMatrix [rowi][coli] = character;
 			coli++;
 		}
-		
-		//print charMatrix to confirm accuracy
-		//this.printMatrix(charMatrix);
-		
 		String result = encryptMatrix (charMatrix);
 		
 		System.out.println ("\n\n----------   RESULT   ----------\n " +result + "\n\n");
-	}
-	public void printMatrix (char [] [] charMatrix)
-	{
-		System.out.println();
-		//O(row * col)
-		for (int i = 0; i < row; i++)
-		{
-			for (int j = 0; j < col; j++)
-			{
-				System.out.print(charMatrix[i][j]);
-			}
-			System.out.println();
-		}
 	}
 	public String encryptMatrix (char [] [] charMatrix)
 	{
 		String result = "";
 		
+		//this is the most resource intesive looping instance in the entire program
+		//Therefore, the solution is O(col * row), and since col and row are either the same or off by one,
+		//we can simplify to O(n^2)
 		for (int i = 0; i < col; i++)
 		{
 			String temp = "";
@@ -89,9 +67,5 @@ public class Encryption {
 			result = result + temp;
 		}
 		return result;
-	}
-	public String getEncryption ()
-	{
-		return this.encryption;
 	}
 }
