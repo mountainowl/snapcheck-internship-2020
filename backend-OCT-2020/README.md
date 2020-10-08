@@ -52,7 +52,6 @@ The aspects of your code we will assess include:
 * **Security**: are there any obvious vulnerability?
 * **Testing**: how thorough are the automated tests? Will they be difficult to change if the requirements of the application were to change? Are there some unit and some integration tests?
 	* We're not looking for full coverage (given time constraint) but just trying to get a feel for your testing skills.
-* **UX**: is the web interface understandable and pleasing to use? Is the API intuitive?
 * **Technical choices**: do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
 
 Bonus point (those items are optional):
