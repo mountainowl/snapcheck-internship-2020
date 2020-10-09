@@ -10,7 +10,7 @@
   1. Any arbitrary value in fields can log user in (no validation required, however you can choose to validate if you prefer)
   1. Create AuthService to hold flag [true or false] if user is already logged in
 
-### Component #1 [ cannot be accessed until user logs in]
+### Component #1 [protected/cannot be accessed until user logs in]
 
   1. Fetch all users and display, all fields
   1. This list of should searchable by first name, last name or amount
@@ -19,7 +19,7 @@
   1. Create custom pipe to display address object and use it in your HTML
   1. Clicking on the row navigates to Component #2
 
-### Component #2  [ cannot be accessed until user logs in]
+### Component #2  [protected/cannot be accessed until user logs in]
   1. Create input fields to modify data
   1. This page receives data from page #1
   1. User id is passed in the URL
