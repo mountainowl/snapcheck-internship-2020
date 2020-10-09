@@ -1,11 +1,11 @@
 # FRONTEND DEVELOPER CODING CHALLENGE
 
-### Use: NODE.JS or Angular Framework - www.angular.io
+### Use: You may use framework of your choice. 
 
 1. Use Mock Json Server https://github.com/typicode/json-server to store your JSON data
 1. Create static JSON file to be used in mock json server with appropriate routes etc. with following fields - id,first name, last name, complete address as object (street address, apartment number, city, state, zip) profile image url (use any static place holder image) and order total (has two fields, amount field - must store cents i.e. 1000 equals $10.00, and currency). Create 10 records. (see sample data file attached here)
 
-## Use Angular to create appropriate modules, components, directives, pipes, route guard, data resolver for following pages,
+## Create appropriate modules, components, directives, pipes, route guard, data resolver for following pages,
 
 ### Component - Login Page 
   1. With username and password fields and login button
@@ -38,6 +38,5 @@
 #### Bonus
 1. If create a common layout for all pages to be rendered in i.e. a common template for all pages in which component specific selectors can be rendered.
 1. Use SASS
-1. No 3rd party libs other than Angular core and components and SASS compiler
 1. Create Attachments area
 1. Deploy to container or cloud service or your choice like AWS, Heroku etc.
