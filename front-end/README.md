@@ -1,7 +1,7 @@
 # FRONTEND DEVELOPER CODING CHALLENGE
 
 ### Use: You may use framework of your choice. 
-#### At SnapCheck we use Angular 10
+> At SnapCheck we use Angular 10
 
 1. Use Mock Json Server https://github.com/typicode/json-server to store your JSON data
 1. Create static JSON file to be used in mock json server with appropriate routes etc. with following fields - id,first name, last name, complete address as object (street address, apartment number, city, state, zip) profile image url (use any static place holder image) and order total (has two fields, amount field - must store cents i.e. 1000 equals $10.00, and currency). Create 10 records. (see sample data file attached here)
