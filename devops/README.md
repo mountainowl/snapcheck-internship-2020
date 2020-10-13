@@ -1,3 +1,17 @@
+### Send solution to the coding challenge along with your resume to jobs@snapcheck.co
+
+--------
+
+## To become a SuperHero in Training, you need
+
+1. You speak AWS - Deployment pipeline, CloudFront, AMI, Load balancer, VPC etc.
+1. Knowledge of Ansible, Terraform, Packer, Consul, CI/CD environments like Jenkins, Gradle etc.
+1. You love creating tools. Strong experience in Linux/Unix and any scripting shell or python
+1. Are successfully maintaining an above-average GPA, preferably 3.0 or higher
+
+--------
+
+
 # Please complete at least one
 
 ## CI/CD + Ansible
