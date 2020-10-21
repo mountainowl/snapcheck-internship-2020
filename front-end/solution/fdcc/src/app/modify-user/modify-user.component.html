@@ -1,0 +1,143 @@
+<br>
+<form #form="ngForm" (ngSubmit)="onSubmit(form.value)">
+
+    <p style="text-align: center;" class="light">Modify User</p>
+    <div class="container" style="background-color: rgb(247, 247, 247); width:50%">
+        <br>
+        <br>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label (click)="status=!status">First name</label>
+                <input type="text" class="form-control " [(ngModel)]="user.first_name" name="first_name" required ngModel>
+
+            </div>
+            <div class=" col-md-6 mb-3 ">
+                <label>Last name</label>
+                <input type="text " class="form-control " [(ngModel)]="user.last_name" name="last_name" required ngModel>
+
+            </div>
+
+        </div>
+        <div class="form-row ">
+            <div class="col-md-6 mb-3 ">
+                <label>Gender</label>
+                <input type="text " class="form-control " [(ngModel)]="user.gender" name="gender" required ngModel>
+
+            </div>
+            <div class="col-md-6 mb-3 ">
+                <label>Age</label>
+                <input type="number" class="form-control " [(ngModel)]="user.age" name="age" required ngModel>
+
+            </div>
+
+        </div>
+        <fieldset ngModelGroup="address">
+
+            <div class="form-row ">
+                <div class="col-md-6 mb-3 ">
+                    <label for="validationServer01 ">Address 1 </label>
+                    <input type="text " class="form-control " [(ngModel)]="user.address.address1" name="address1" required ngModel>
+
+                </div>
+                <div class="col-md-6 mb-3 ">
+                    <label for="validationServer02 ">Address 2</label>
+                    <input type="text " class="form-control " [(ngModel)]="user.address.address2" name="address2" required ngModel>
+
+                </div>
+            </div>
+
+
+            <div class="form-row ">
+
+                <div class="col-md-4 mb-3 ">
+                    <label for="validationServer02 ">City</label>
+                    <input type="text " class="form-control " [(ngModel)]="user.address.city" name="city" required ngModel>
+
+                </div>
+                <div class="col-md-4 mb-3 ">
+                    <label for="validationServer02 ">State</label>
+                    <input type="text " class="form-control " id="validationServer02 " [(ngModel)]="user.address.state" name="state" required ngModel>
+
+                </div>
+                <div class="col-md-4 mb-3 ">
+                    <label for="validationServer02 ">Zip</label>
+                    <input type="text " class="form-control " [(ngModel)]="user.address.zip" name="zip" required ngModel>
+
+                </div>
+            </div>
+        </fieldset>
+        <fieldset ngModelGroup="order_total">
+
+            <div class="form-row ">
+                <div class="col-md-6 mb-3 ">
+                    <label>Amount</label>
+                    <input type="number" class="form-control " [(ngModel)]="user.order_total.amount" name="amount" required ngModel>
+
+                </div>
+                <fieldset [disabled]="true">
+
+                    <div class="col-md-6 mb-3 ">
+                        <label>Currency</label>
+                        <input type="text " class="form-control " [(ngModel)]="user.order_total.currency" name="currency" required ngModel>
+
+                    </div>
+                </fieldset>
+
+            </div>
+        </fieldset>
+
+        <div class="form-group " style="text-align: center; ">
+            <a class="btn btn-primary text-white " data-toggle="modal" type="button " data-target="#cancelModal">Cancel</a>&nbsp;
+            <a class=" btn btn-primary text-white" data-toggle="modal" data-target="#saveModal" type="button ">Save </a>&nbsp;
+            <a class="btn btn-primary text-white" data-toggle="modal" data-target="#deleteModal" type="button ">Delete </a>&nbsp;
+
+            <br>
+        </div>
+        <br>
+    </div>
+    <span class="popup">
+        <div class="modal fade" id="cancelModal" tabindex="-1" >
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-sm" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Discard changes?</h5>
+                </div>
+                <div class="modal-body">
+                    <button class=" btn btn-danger "  type="button" data-dismiss="modal"> Back </button>&nbsp;
+
+                    <button class=" btn btn-primary btn float-right" type="button" data-dismiss="modal" [routerLink]="[ '/view-users'] "> Confirm </button>&nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="saveModal" tabindex="-1" >
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-sm" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" >Confirm Submit?</h5>
+                </div>
+                <div class="modal-body">
+                    <button class=" btn btn-danger " type="button" data-dismiss="modal"> Back </button>&nbsp;
+
+                    <button class="btn btn-primary float-right" type="submit"  >Confirm Submit </button>&nbsp;
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="deleteModal" tabindex="-1" >
+        <div class="modal-dialog modal-dialog-centered modal-dialog modal-sm" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" >Confirm Delete?</h5>
+                </div>
+                <div class="modal-body">
+                    <button class=" btn btn-danger " type="button" data-dismiss="modal"> Back </button>&nbsp;
+
+                    <button class="btn btn-primary float-right" type="button"  (click)="onDelete() ">Delete </button>&nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+    </span>
+</form>

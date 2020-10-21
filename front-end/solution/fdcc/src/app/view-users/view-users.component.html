@@ -1,0 +1,32 @@
+<h4 class="text-center  my-5">
+    <small>View Users </small></h4>
+
+<form class="form-inline " style="margin: 0 auto; width:200px; ">
+
+    <div class="il">
+        <input [(ngModel)]="searchKey" class=" form-control mr-lg-2 " type="search " placeholder="Search " name="search " style="display: inline-block;">
+        <hr>
+    </div>
+
+</form>
+
+<br><br>
+
+<div *ngFor="let user of users| filterBy:searchKey:['first_name','last_name','order_total.amount'] " class=" container " style="width: 50%; ">
+    <div class=" d-table w-100 ">
+        <p class="d-table-cell ">
+
+            <small><b>First Name :</b> {{user.first_name}} </small>
+            <br><small><b>Last Name :</b> {{user.last_name}}</small><br>
+            <small><b>Amount : </b>{{user.order_total.amount|currency:user.order_total.currency}}</small>
+            <br><small><b>Gender :</b> {{user.gender}}</small>
+            <br><small><b>Age :</b> {{user.age}}</small>
+            <br><small><b>Address :</b> {{user.address |address:['address2','address1','city','state','zip']}}</small>
+
+        </p>
+        <div class="d-table-cell tar ">
+            <button class="btn-sm btn-primary " [routerLink]="[ '/modify-user', user.user_id] "> <small> Visit</small></button>
+        </div>
+    </div>
+    <hr><br>
+</div>
