@@ -1,4 +1,4 @@
-# FRONTENDDEVELOPER CODING CHALLENGE
+# FRONTEND DEVELOPER CODING CHALLENGE
 
 ### Use: You may use framework of your choice. 
 > At SnapCheck we use Angular 10
