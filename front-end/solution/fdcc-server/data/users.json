@@ -1,0 +1,73 @@
+[{
+        "user_id": 1,
+        "first_name": "John",
+        "last_name": "Smith",
+        "gender": "MALE",
+        "age": 32,
+        "address": {
+            "address1": "123 East Ave.",
+            "address2": "#8",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10001"
+        },
+        "order_total": {
+            "amount": 2214,
+            "currency": "USD"
+        }
+    },
+    {
+        "user_id": 2,
+        "first_name": "Jack",
+        "last_name": "Brown",
+        "gender": "MALE",
+        "age": 32,
+        "address": {
+            "address1": "123 North Ave.",
+            "address2": "#8",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10001"
+        },
+        "order_total": {
+            "amount": 32534,
+            "currency": "USD"
+        }
+    },
+    {
+        "user_id": 3,
+        "first_name": "Jill",
+        "last_name": "Williams",
+        "gender": "FEMALE",
+        "age": 32,
+        "address": {
+            "address1": "243 South Ave.",
+            "address2": "#8",
+            "city": "Dallas",
+            "state": "Texas",
+            "zip": "10001"
+        },
+        "order_total": {
+            "amount": 12321,
+            "currency": "USD"
+        }
+    },
+    {
+        "user_id": 4,
+        "first_name": "Jane",
+        "last_name": "Elizabeth",
+        "gender": "FEMALE",
+        "age": 32,
+        "address": {
+            "address1": "12 West Ave.",
+            "address2": "#8",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10001"
+        },
+        "order_total": {
+            "amount": "",
+            "currency": "USD"
+        }
+    }
+]
