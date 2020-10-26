@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "first_name": "Jacky",
+      "last_name": "Smith",
+      "address": {
+        "address1": "123 Main St.",
+        "address2": "#1",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": 94035
+      },
+      "gender": "Male",
+      "age": 28,
+      "order_total": {
+        "amount": "10028",
+        "currency": "USD"
+      },
+      "id": "5f965078e54707596cfb8eaf"
+    },
+    {
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "address": {
+        "address1": "123 Wood Ave.",
+        "address2": "#8",
+        "city": "New York",
+        "state": "NY",
+        "zip": 10001
+      },
+      "gender": "Female",
+      "age": 32,
+      "order_total": {
+        "amount": "5999",
+        "currency": "GBP"
+      },
+      "id": "5f93cc0efc969ffffbfb7c65"
+    },
+    {
+      "id": "5f93cc21effdbddcd885dd37",
+      "first_name": "Zach",
+      "last_name": "Wellington",
+      "address": {
+        "address1": "156 King St.",
+        "address2": "#23",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "94567"
+      },
+      "gender": "Male",
+      "age": 23,
+      "order_total": {
+        "amount": 10900,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "5f93cc543fbb06ba9fe5fcd8",
+      "first_name": "Brad",
+      "last_name": "Brady",
+      "address": {
+        "address1": "480 Shipley Ave.",
+        "address2": "#16",
+        "city": "Parsippany",
+        "state": "NJ",
+        "zip": "07054"
+      },
+      "gender": "Male",
+      "age": 19,
+      "order_total": {
+        "amount": 599,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "5f93cc6321b9f504f8a99c25",
+      "first_name": "Spongbob",
+      "last_name": "Squarepants",
+      "address": {
+        "address1": "640 Fruitville Ave.",
+        "address2": "#0",
+        "city": "Bikini Bottom",
+        "state": "FL",
+        "zip": "32004"
+      },
+      "gender": "Male",
+      "age": 44,
+      "order_total": {
+        "amount": 77999,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "5f93cc766788954155109052",
+      "first_name": "Spaghetti",
+      "last_name": "Tortellini",
+      "address": {
+        "address1": "8046 East Oakwood Rd.",
+        "address2": "#9",
+        "city": "Pittsfield",
+        "state": "MA",
+        "zip": "01201"
+      },
+      "gender": "Female",
+      "age": 26,
+      "order_total": {
+        "amount": 12679,
+        "currency": "SEK"
+      }
+    },
+    {
+      "first_name": "Kaitlin",
+      "last_name": "Chan",
+      "address": {
+        "address1": "28 Willow Ave.",
+        "address2": "#6",
+        "city": "Ellenwood",
+        "state": "GA",
+        "zip": 30294
+      },
+      "gender": "Female",
+      "age": 24,
+      "order_total": {
+        "amount": "58000",
+        "currency": "HKD"
+      },
+      "id": "5f93cc8dbaf37380eb666a6b"
+    },
+    {
+      "id": "5f93cc9f26924908225d6062",
+      "first_name": "Mura M",
+      "last_name": "Masa",
+      "address": {
+        "address1": "8234 W. Rosewood Ave.",
+        "address2": "",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73108"
+      },
+      "gender": "Female",
+      "age": 22,
+      "order_total": {
+        "amount": 499,
+        "currency": "GBP"
+      }
+    },
+    {
+      "first_name": "Jenny",
+      "last_name": "Gardner",
+      "address": {
+        "address1": "440 Gardner Ct.",
+        "address2": "#85",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": 94539
+      },
+      "gender": "Female",
+      "age": 25,
+      "order_total": {
+        "amount": "444444",
+        "currency": "USD"
+      },
+      "id": "5f93ccafeb7bdb6b16d8d0c6"
+    },
+    {
+      "first_name": "Bob",
+      "last_name": "Ross",
+      "address": {
+        "address1": "330 Art Rd.",
+        "address2": "#50",
+        "city": "Houston",
+        "state": "TX",
+        "zip": 75038
+      },
+      "gender": "Other",
+      "age": 55,
+      "order_total": {
+        "amount": "30000",
+        "currency": "USD"
+      },
+      "id": "5f964225c78622f84f101404"
+    }
+  ]
+}
