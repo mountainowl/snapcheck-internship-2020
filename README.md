@@ -17,6 +17,11 @@ Open a terminal and type in the following code: `json-server --watch db.json`
 
 In another terminal, run this code: `npm start`. This will allow the application to be ran on [localhost:3000](http://localhost:3000)
 
+#### Loggin In:
+
+username: Jennifer
+password: Gardner
+
 ----
 
 ## Dependencies
