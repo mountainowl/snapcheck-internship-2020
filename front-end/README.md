@@ -5,7 +5,7 @@ We're excited that you're interested in joining the SnapCheck team. In the past,
 We wish you the best of luck and can't wait to see what you create!
 
 # Time to spend
-We ask that you spend no more than 6-8 hours on this challenge.
+We ask that you spend *no more than 6-8 hours* on this challenge.
 
 At a minimum, there are three things we would like to see:
 
