@@ -44,9 +44,9 @@ We have licensed this project under the MIT license so that you may use this for
 
 # THE CHALLENGE
 
-1. Download the JSON data file and Mock Json Server https://github.com/typicode/json-server to act as your server
+Download the JSON data file and Mock Json Server https://github.com/typicode/json-server to act as your server
 
-> **The data file has follow information** - id,first name, last name, complete address as object (street address, apartment number, city, state, zip) profile image url (use any static place holder image) and order total (has two fields, amount field - must store cents i.e. 1000 equals $10.00, and currency). Create 10 records. (see sample data file attached here)
+> **The data file has follow information** - id,first name, last name, complete address as object (street address, apartment number, city, state, zip) profile image url (use any static place holder image) and order total (has two fields, amount field - stored in cents i.e. 1000 equals $10.00, and currency). 
 
 ### Component - Login Page 
   1. With username and password fields and login button
