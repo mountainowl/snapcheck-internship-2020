@@ -1,4 +1,4 @@
-Hello!
+# Hello!
 
 We're excited that you're interested in joining the SnapCheck team. In the past, we have brought potential engineering candidates into our office for a full-day technical interviews. These sessions included whiteboard programming exercises, code reviews, and other thought exercises. We realized that current trends and situation requires us to change, so instead, we've come up with this relatively open-ended programming/design challenge that will allow you to demonstrate your skills from the comfort of your own workspace. In addition, we know your time is valuable, so please feel free to use your completed work as a portfolio piece.
 
