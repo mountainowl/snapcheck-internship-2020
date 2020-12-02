@@ -2,7 +2,7 @@
 
 ### Coding challenge
 
-Query Spotify and grab a list of album names for any given artist. Bonus points if the script allows the user to specify the artist!
+Query Spotify (API) and grab a list of album names for any given artist. Bonus points if the script allows the user to specify the artist!
 
 Create a playlist on your account if you don't already have one. Write a script that queries Spotify for the playlist and returns all tracks/songs in the playlist.
 
