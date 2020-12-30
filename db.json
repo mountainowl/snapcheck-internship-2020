@@ -1,0 +1,36 @@
+[
+  {
+    "first_name": "Jack",
+    "last_name": "Smith",
+    "address": {
+      "address1": "123 Main St.",
+      "address2": "#1",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94035"
+    },
+    "gender": "MALE",
+    "age": 28,
+    "order_total": {
+      "amount": 10028,
+      "currency": "USD"
+    }
+  },
+  {
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "address": {
+      "address1": "123 Wood Ave.",
+      "address2": "#8",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "gender": "FEMALE",
+    "age": 32,
+    "order_total": {
+      "amount": 510028,
+      "currency": "GBP"
+    }
+  }
+]
