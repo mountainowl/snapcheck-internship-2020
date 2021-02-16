@@ -1,0 +1,12 @@
+{
+  "app_name": "Your App name",
+  "client_id": "Your client Id",
+  "secret": "Your secret",
+  "access_url": "https://accounts.spotify.com/api/token",
+  "authorize_url": "https://accounts.spotify.com/authorize",
+  "search_url": "https://api.spotify.com/v1/search",
+  "redirect_url": "http://localhost?dump",
+  "user_playlist_url": "https://api.spotify.com/v1/me/playlists/",
+  "playlist_url": "https://api.spotify.com/v1/playlists/",
+  "artist_url": "https://api.spotify.com/v1/artists/"
+}

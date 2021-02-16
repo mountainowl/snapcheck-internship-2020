@@ -1,0 +1,5 @@
+flake8
+pydocstyle
+requests~=2.25.1
+oauthlib~=3.1.0
+rauth~=0.7.3

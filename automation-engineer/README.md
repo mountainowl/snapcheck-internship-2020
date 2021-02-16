@@ -1,3 +1,18 @@
+Hello,
+my name is Alexey Ostrovski and I'm seeking an intern position for Python
+QA Automation engineer.
+I recently completed a Python Automation course and also have an
+engineering background.
+Willing to work hard and learn from colleagues to gain an experience.
+
+Please find my resume and solution in this folder.
+
+Script requires:
+1. Application name
+2. Client ID
+3. Secret
+https://developer.spotify.com/dashboard/applications
+______________________________________________________________________________________________________________________________________________________________________
 ## Automation Engineer - Intern
 
 ### Coding challenge
